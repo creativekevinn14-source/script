@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "Get your free key in the discord server!",
       Note = "https://discord.gg/PjSG6fKpw", -- Use this to tell the user how to get a key
       FileName = "KeyFileName11229", -- It is recommended to use something unique, as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"UHSkey"} -- List of keys that the system will accept, can be RAW file links (pastebin, github, etc.) or simple strings ("hello", "key22")
    }
